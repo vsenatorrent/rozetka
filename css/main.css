@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  width: 100%; }
+  header .buck {
+    background-image: url(../img/sprite.png);
+    background-position: 0 -6554px;
+    width: 38px;
+    height: 33px;
+    float: right;
+    margin: 10px 20px 0 0;
+    position: relative; }
+    header .buck .count {
+      text-align: center;
+      color: white;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: #FB515D;
+      border-radius: 50%;
+      width: 18px;
+      height: 16px;
+      font-size: 0.8em;
+      font-weight: bold;
+      display: none; }
+
+.wrapper {
+  width: 81%;
+  margin: 0 auto;
+  padding: 5px;
+  clear: both; }
+
+.card {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #EAEAEA;
+  display: inline-block;
+  margin-right: -5px; }
+  .card .img {
+    text-align: center; }
+    .card .img img {
+      width: 90%;
+      margin-bottom: 25px; }
+  .card .caption a {
+    font-size: 1em;
+    color: #3e77aa;
+    text-decoration: none; }
+  .card .caption .oldPrice {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 1.2em;
+    text-decoration: line-through;
+    text-decoration-color: #FB515D;
+    color: grey; }
+    .card .caption .oldPrice span {
+      font-size: .8em; }
+  .card .caption .newPrice {
+    display: inline-block;
+    margin-bottom: 10px; }
+    .card .caption .newPrice .priceCaption {
+      display: inline-block;
+      color: #FB515D;
+      font-size: 1.2em;
+      padding: 5px;
+      background-color: #FFF3B5;
+      border-radius: 2px; }
+      .card .caption .newPrice .priceCaption span {
+        font-size: .8em; }
+  .card .caption .stars {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px; }
+    .card .caption .stars .img {
+      display: inline-block;
+      background-image: url(../img/sprite.png);
+      background-position: 0 -5198px;
+      height: 13px;
+      width: 70px; }
+    .card .caption .stars span {
+      color: #3e77aa;
+      font-size: 0.8em; }
+  .card .caption .prog {
+    font-size: 0.9em;
+    margin-bottom: 12px; }
+    .card .caption .prog .pr span {
+      color: #FB515D; }
+  .card .icons {
+    padding-left: 10px;
+    margin-bottom: 20px; }
+    .card .icons .buy,
+    .card .icons .heart,
+    .card .icons .libra {
+      display: inline-block;
+      text-align: center;
+      background-image: url(../img/sprite.png); }
+    .card .icons .buy {
+      position: relative;
+      background-position: 0 -4845px;
+      width: 24px;
+      height: 21px;
+      margin-right: 10px; }
+      .card .icons .buy .count {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #FB515D;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        font-size: 0.7em;
+        display: none; }
+    .card .icons .hb {
+      display: inline-block;
+      border-left: 1px solid #EAEAEA;
+      border-right: 1px solid #EAEAEA;
+      padding: 5px; }
+      .card .icons .hb .heart {
+        background-position: 0 -6213px;
+        width: 27px;
+        height: 22px; }
+    .card .icons .libra {
+      background-position: 0 -4940px;
+      width: 27px;
+      height: 22px;
+      margin-left: 10px; }
+
+.add {
+  background-position: 0 -4964px !important;
+  width: 35px !important;
+  height: 28px !important; }
+
+/*# sourceMappingURL=main.css.map */
